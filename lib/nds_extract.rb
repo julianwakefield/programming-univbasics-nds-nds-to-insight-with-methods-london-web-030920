@@ -29,7 +29,7 @@ result = {}
   while counter < nds.length do
     director_name = nds[counter][:name]
      result[director_name] = gross_for_director(nds[counter])
-     
+
 
   counter += 1
 end
